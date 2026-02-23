@@ -1,12 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Henry | Portfolio</title>
+    <meta name="description" content="Henry's Portfolio - Showcasing modern web development and design projects.">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>hi I'm Johnson</h1>
+    <nav>
+        <div class="container nav-content">
+            <a href="#" class="logo">HENRY</a>
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h1>Frontend Architect &<br>Product Engineer.</h1>
+                <p>7+ years of experience building cross-platform mobile and web applications across fintech,
+                    blockchain, and real-time communication systems.</p>
+                <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 1rem;">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#about" class="btn" style="border: 1px solid var(--border-color);">Career Path</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container">
+            <h2 class="section-title">Selected Projects</h2>
+            <div class="projects-grid">
+                <!-- Texpert Main -->
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1436491865332-7a61a109c0f3?auto=format&fit=crop&w=800&q=80"
+                        alt="Texpert Main" class="project-img">
+                    <div class="project-info">
+                        <h3>Texpert Main Site</h3>
+                        <p>Leading travel-tech platform in Hong Kong, architected with Next.js and Component-Driven
+                            Development.</p>
+                        <div class="project-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">TravelTech</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.texpert.com" target="_blank">Website</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Texpert Hotel -->
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1455584403523-252e37a28f73?auto=format&fit=crop&w=800&q=80"
+                        alt="Texpert Hotel" class="project-img">
+                    <div class="project-info">
+                        <h3>Texpert Hotel Booking</h3>
+                        <p>Specialized travel booking engine optimized for real-time inventory and high-performance UI.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Real-time</span>
+                            <span class="tag">API Integration</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://travel.texpert.com/en/hotel" target="_blank">Website</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Onlyface -->
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1516251193007-45ef944ab0c6?auto=format&fit=crop&w=800&q=80"
+                        alt="Onlyface" class="project-img">
+                    <div class="project-info">
+                        <h3>Onlyface</h3>
+                        <p>Architected a cross-platform social discovery app with real-time features and intuitive UI.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">UX Engineering</span>
+                            <span class="tag">Social</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.onlyface.app" target="_blank">Website</a>
+                            <a href="https://apps.apple.com/tw/app/onlyface/id6467753501" target="_blank">iOS</a>
+                            <a href="https://play.google.com/store/apps/details?id=com.onlyface"
+                                target="_blank">Android</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ZoneWallet -->
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&w=800&q=80"
+                        alt="ZoneWallet" class="project-img">
+                    <div class="project-info">
+                        <h3>ZoneWallet</h3>
+                        <p>Led development of a secure fintech mobile app from 0→1, featuring complex investment
+                            workflows.</p>
+                        <div class="project-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">Fintech</span>
+                            <span class="tag">CI/CD</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.zonewallet.io" target="_blank">Website</a>
+                            <a href="https://apps.apple.com/tw/app/zone-wallet/id6470339289" target="_blank">iOS</a>
+                            <a href="https://play.google.com/store/apps/details?id=io.zonewallet"
+                                target="_blank">Android</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Hoogii -->
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=800&q=80"
+                        alt="Hoogii" class="project-img">
+                    <div class="project-info">
+                        <h3>Hoogii</h3>
+                        <p>Architected secure transaction signing and wallet extension features for Web3 ecosystems.</p>
+                        <div class="project-tags">
+                            <span class="tag">Web3</span>
+                            <span class="tag">Security</span>
+                            <span class="tag">Extension</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://hoogii.app" target="_blank">Website</a>
+                            <a href="https://github.com/hashgreen/hoogii-wallet" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- powercall -->
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1616587226960-4a03b0efbf2f?auto=format&fit=crop&w=800&q=80"
+                        alt="powercall" class="project-img">
+                    <div class="project-info">
+                        <h3>powercall</h3>
+                        <p>Developed high-performance WebRTC-based video conferencing solutions across web and mobile.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">WebRTC</span>
+                            <span class="tag">Real-time</span>
+                            <span class="tag">Socket.io</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://tico.chat/powercall" target="_blank">Website</a>
+                            <a href="https://meet.bnext.com.tw/articles/view/47485" target="_blank">News</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 運匠集運 -->
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80"
+                        alt="運匠集運" class="project-img">
+                    <div class="project-info">
+                        <h3>運匠集運</h3>
+                        <p>Built a cross-border logistics platform optimizing supply chain and shipping tracking.</p>
+                        <div class="project-tags">
+                            <span class="tag">Logistics</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Shipping</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.newtwyunjiang.com/" target="_blank">Website</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 客話學習網 -->
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80"
+                        alt="客話學習網" class="project-img">
+                    <div class="project-info">
+                        <h3>客話學習網</h3>
+                        <p>An interactive educational portal developed for language preservation and e-learning.</p>
+                        <div class="project-tags">
+                            <span class="tag">Education</span>
+                            <span class="tag">E-learning</span>
+                            <span class="tag">React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://kids.hakka.gov.tw/" target="_blank">Website</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="expertise-grid">
+                <div class="expertise-item">
+                    <h4>Mobile & Web</h4>
+                    <ul>
+                        <li>React Native (iOS/Android)</li>
+                        <li>Next.js, Vite, React</li>
+                        <li>TypeScript</li>
+                        <li>Tailwind CSS</li>
+                    </ul>
+                </div>
+                <div class="expertise-item">
+                    <h4>Architecture</h4>
+                    <ul>
+                        <li>Scalable UI Systems</li>
+                        <li>Real-time (WebRTC/Socket)</li>
+                        <li>Wallet & Security Flow</li>
+                        <li>CI/CD (GitHub Actions)</li>
+                    </ul>
+                </div>
+                <div class="expertise-item">
+                    <h4>Lead & AI</h4>
+                    <ul>
+                        <li>Technical Leadership</li>
+                        <li>Scrum & Agile Framework</li>
+                        <li>AI-Native Interfaces</li>
+                        <li>Agentic Workflows</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2 class="section-title" style="margin-top: 8rem;">Professional Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Jul 2024 – Present</div>
+                    <div class="timeline-content">
+                        <h3>Senior Frontend Engineer & Technical Lead</h3>
+                        <span class="company">Texpert (Hong Kong) • Remote</span>
+                        <ul>
+                            <li>Architected Next.js system using Component-Driven Development, reducing delivery time by
+                                30%.</li>
+                            <li>Standardized UI systems with Storybook and reusable component libraries.</li>
+                            <li>Established async-first remote communication rituals across Taiwan and HK teams.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Mar 2023 – Nov 2023</div>
+                    <div class="timeline-content">
+                        <h3>Frontend Lead / React Native Engineer</h3>
+                        <span class="company">None Capital (Taiwan)</span>
+                        <ul>
+                            <li>Shipped a React Native app to iOS and Android from 0→1 for mobile investment.</li>
+                            <li>Integrated CodePush for hot updates, enabling rapid iteration cycles.</li>
+                            <li>Designed project architecture and environment segmentation (dev/staging/prod).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Mar 2022 – Feb 2023</div>
+                    <div class="timeline-content">
+                        <h3>Engineering Lead / Blockchain Engineer</h3>
+                        <span class="company">Hashgreen (US)</span>
+                        <ul>
+                            <li>Architected secure transaction signing mechanisms for wallet browser extensions.</li>
+                            <li>Collaborated with protocol teams to ensure compliance with on-chain logic.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Jun 2019 – Mar 2022</div>
+                    <div class="timeline-content">
+                        <h3>React / React Native Engineer</h3>
+                        <span class="company">Tico (Taiwan)</span>
+                        <ul>
+                            <li>Developed WebRTC-based video conferencing platform using Next.js.</li>
+                            <li>Implemented real-time video/audio calling features in React Native and Socket.io.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container" style="text-align: center;">
+            <h2 class="section-title">Get In Touch</h2>
+            <p style="margin-bottom: 2rem; color: var(--text-secondary);">Interested in working together or just want to
+                say hi?</p>
+            <a href="mailto:hello@hryjosn.com" class="btn btn-primary">Say Hello</a>
+        </section>
+    </main>
+
+    <footer
+        style="padding: 4rem 0; border-top: 1px solid var(--border-color); text-align: center; color: var(--text-secondary); font-size: 0.9rem;">
+        <div class="container">
+            <p>&copy; 2026 Henry. Built with ❤️ and Vanilla CSS.</p>
+        </div>
+    </footer>
 </body>
+
 </html>
