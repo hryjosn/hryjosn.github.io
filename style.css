@@ -160,6 +160,7 @@ section {
     overflow: hidden;
     border: 1px solid var(--border-color);
     transition: var(--transition-base);
+    position: relative;
 }
 
 .project-card:hover {
@@ -209,6 +210,8 @@ section {
     gap: 1rem;
     border-top: 1px solid var(--border-color);
     padding-top: 1rem;
+    position: relative;
+    z-index: 10;
 }
 
 .project-links a {
@@ -223,6 +226,16 @@ section {
 .project-links a:hover {
     color: var(--accent-hover);
     text-decoration: underline;
+}
+
+.main-link::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
 }
 
 /* Experience & Skills */
