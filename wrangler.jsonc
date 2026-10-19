@@ -1,0 +1,16 @@
+{
+  "$schema": "https://unpkg.com/wrangler@4/config-schema.json",
+  "name": "henry-tsai",
+  "account_id": "babed07fbf1fc105f3ab8d48228d03d7",
+  "compatibility_date": "2026-10-01",
+
+  /**
+   * Static-assets-only Worker: no script, the asset server answers every
+   * request. Files excluded from upload are listed in .assetsignore.
+   * GitHub Pages keeps serving the same files; canonical stays on
+   * hryjosn.github.io until a custom domain is attached here.
+   */
+  "assets": {
+    "directory": "./"
+  }
+}
